@@ -1,0 +1,12 @@
+Proceso Potencia
+	Definir a, b, c, N, suma Como Entero
+	Escribir "Ingrese un número de 3 cifras"
+	Leer N
+	a<-TRUNC (N/100)
+	b<-TRUNC (N/10) - (a*10)
+	c<-N -(a*100+b*10)
+
+	
+	suma<-a^2+b^2+c^2
+	Escribir "La suma de sus cuadrados es: ", suma
+FinProceso

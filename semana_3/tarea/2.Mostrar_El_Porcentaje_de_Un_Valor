@@ -1,0 +1,8 @@
+Proceso Mostrar_El_Porcentaje_de_Un_Valor
+	Definir numeroSinPorcentaje, numeroConPorcentaje Como Entero
+	Escribir "Ingrese el número"
+	Leer numeroSinPorcentaje
+	
+	numeroConPorcentaje<-numeroSinPorcentaje * 20 / 100
+	Escribir "El 20% del número ingresado es: ", numeroConPorcentaje
+FinProceso

@@ -1,0 +1,13 @@
+Proceso Suma_y_Producto_De_Dos_Valores
+	Definir valorUno, valorDos, suma, producto Como Entero
+	Escribir "Ingrese el primer valor"
+	Leer valorUno
+	Escribir "Ingrese el segundo valor"
+	Leer valorDos
+	
+	suma<-valorUno + valorDos
+	producto<-valorUno * valorDos
+	
+	Escribir "La suma del primer valor con el segundo es: ", suma
+	Escribir "El producto del primer valor con el segundo es: ", producto
+FinProceso

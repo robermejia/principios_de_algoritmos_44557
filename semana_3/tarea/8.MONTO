@@ -1,0 +1,13 @@
+Proceso monto
+	Definir a, b, c, ingresoMonto Como Entero
+	Escribir "Ingreso un monto"
+	Leer ingresoMonto
+	
+	a<-ingresoMonto * 30 /100
+	b<-ingresoMonto * 20 / 100
+	c<-ingresoMonto * 50 / 100
+	
+	Escribir "El monto que le toca a A es: ", a
+	Escribir "El monto que le toca a B es: ", b
+	Escribir "El monto que le toca a C es: ", c
+FinProceso
